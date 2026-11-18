@@ -1,4 +1,4 @@
-
+﻿
 import pandas as pd
 from pathlib import Path
 
@@ -6,7 +6,7 @@ from pathlib import Path
 # 1. CONFIGURATION DES CHEMINS
 # ============================================================
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATA_DIR = BASE_DIR / "data" / "raw" / "2025"
 

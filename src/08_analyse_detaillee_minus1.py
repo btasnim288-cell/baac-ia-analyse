@@ -1,8 +1,8 @@
-
+﻿
 import pandas as pd
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 DOSSIER = BASE_DIR / "data" / "processed" / "2025"
 DOSSIER_SORTIE = BASE_DIR / "data" / "exploration" / "2025" / "analyse_minus1"

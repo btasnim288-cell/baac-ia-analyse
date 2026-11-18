@@ -1,4 +1,4 @@
-
+﻿
 from pathlib import Path
 import pandas as pd
 
@@ -6,7 +6,7 @@ import pandas as pd
 # 1. CONFIGURATION
 # =====================================================
 
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 DOSSIER_ENTREE = BASE_DIR / "data" / "processed" / "2025" / "nettoye"
 DOSSIER_SORTIE = BASE_DIR / "data" / "processed" / "2025" / "fusion"
